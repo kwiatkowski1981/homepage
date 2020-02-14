@@ -16,7 +16,6 @@ h2{
 h3{
 
     color:#17AFE3;
-
 }
 
 p{
@@ -24,8 +23,8 @@ p{
 }
 
 a{
-        color: #C8ADC0;
-        text-decoration:none ;
+    color: #C8ADC0;
+    text-decoration:none ;
 }
 
 a:hover{
@@ -33,7 +32,7 @@ a:hover{
 
 }
 
-#diary {
-
-    color: #2C2724;
+.diary {
+    background-color:#ffffff;
+    color: #54635A;
 }
