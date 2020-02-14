@@ -1,15 +1,34 @@
+
+
 body{
-    background: #cccccc;
+    background-color:#E8F4FD;
 }
 
+
 h1{
-    color: rgb(201, 69, 29);
+    color:#2B46A6;
 }
 
 h2{
-    color: rgb(79, 79, 243);
+    color:#3B60E4;
+}
+
+h3{
+
+    color:#17AFE3;
+
 }
 
 p{
-    color: rgb(13, 109, 13)
+    color:#262724;
+}
+
+a{
+        color: #C8ADC0;
+        text-decoration:none ;
+}
+
+a:hover{
+    color:#21357D;
+
 }
