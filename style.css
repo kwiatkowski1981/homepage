@@ -24,6 +24,21 @@ body{
 
 }
 
+.navigation__link-goup{
+    color: #317B22;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: #E8F4FD;
+}
+
+.navigation__link-goup:hover{
+    color: #931621;
+   
+}
+
 .main{
     width: 100%;
     max-width: 700px;
@@ -69,8 +84,13 @@ body{
 
 }
 
+.diary{
+
+}
+
 .diary__header2{
     color: #3B60E4;
+
 }
 
 .diary__header3{
@@ -82,6 +102,10 @@ body{
     color: #54635A;
     padding: 10px 10px 10px 20px;
     clear: both;
+}
+
+.diary__paragraph diary__paragraph--color{
+    color: #F0F9EA;
 }
 
 .diary__link{
