@@ -10,69 +10,83 @@
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
 
-        | <a href="index.html"> Strona Główna </a> |
-        <a href="photos.html"> Photos </a> | 
-        <a href="movies.html"> Movies </a> |
-        <a href="Guestbook.html"> Guestbook </a> |
+        | <a href="index.html" class="navigation__link"> Strona Główna </a> |
+        <a href="photos.html" class="navigation__link"> Photos </a> | 
+        <a href="movies.html" class="navigation__link"> Movies </a> |
+        <a href="Guestbook.html" class="navigation__link"> Guestbook </a> |
 
     </header>
 
 
-    <main>
+    <main class="main">
 
-        <header>
-            <h1>
+        <header class="main__header">
+            <h1 class="main__header1">
                 Jakub Kwiatkowski - Strona domowa
             </h1>
         </header>
 
-        <section>
-            <h2>Kim jestem?</h2>
-
-            <img src="me2.jpeg" width="15%">
-            <br/>
-
-            <p>
+        <section class="aboutme">
+                <h2 class="aboutme__header2">Kim jestem?</h2>
+ 
+                <p class="aboutme__paragraph">
+                <img src="me2.jpeg" alt="kuba wystajacy zza macbooka" class="aboutme__img">
                 Urodziłem się w <b>1981</b> w Szczecinku. Wychowałem się na dolnym śląsku w miejscowości
                 <strong>Dzierzoniów</strong>.
                 Obecnie mieszkam w szwajcarii.
                 Mieszkam tu od 1998 roku.
                 Czym się zajmuję?
-                Pracuję, fotografuję, latam dronem, jezdzę na rowerze, programuję :)
+                Pracuję, fotografuję, latam dronem, jezdzę na rowerze, uczę się programowania :)
 
 
-                | <a href="#diary">przejdź do pamiętniczka</a> |
-            </p>
+                | <a href="#diary" class="aboutme__link">przejdź do pamiętniczka</a> |
+                 </p>
+
         </section>
 
 
-        <section id="diary">
-            <h2>Pamietniczek</h2>
+        <section id="diary" class="float">
+            <h2 class="diary__header2">Pamietniczek</h2>
 
 
-            <section>
-                <h3>jakie kursy robię?</h3>
-                <p class="diary">
-                    WTF co ten frontend, Kurs Git'a i DB-Master na platformie Maćka Aniserowicza Devstyle.pl
+            <section class="diary">
+                <h3 class="diary__header3">jakie kursy robię?</h3>
+                <p class="diary__paragraph">
+                    Pierwszy kurs to <a href="https://cotenfrontend.pl/" target="blank" class="diary__link">WTF: co ten frontend</a> <b>Maćka Korsana</b>,
+                    kolejnym jest <a href="https://kursgita.pl/" target="blank" class="diary__link">Kurs Git'a</a> <b>Maćka Aniserowicza</b> i 
+                    najnowszym zakupionym będzie <a href="https://dbmaster.pl/" target="blank" class="diary__link">DB-Master</a> <b>Damiana Widery</b> na platformie właśnie Maćka Aniserowicza 
+                    <a href="https://devstyle.pl/" target="blank" class="diary__link">Devstyle.pl</a>, serdecznie zapraszam do odwiedzenia tych serwisów.
                 </p>
             </section>
 
 
             <section>
-                <h3>Czego sie nauczyłem dzisiaj</h3>
-                <p class="diary">
+                <h3 class="diary__header3"> Czego sie nauczyłem dzisiaj</h3>
+
+                <p class="diary__paragraph">
+                    16.02.2020 <br/><br/>
+                    Doszedł BEM, to dopiero duzo zmian ale zmian na lepsze.    
+                </p>
+
+                <p class="diary__paragraph">
+                    15.02.2020 <br/><br/>
+                    Dzisiaj duzo stylowania, boxy, pozycjonowanie elementow, i floaty. Co do floatow to masakra. Wlłaśnie dzisiaj się dowiedziałem, ze juz się tak nie tworzy stron. Jeszcze niedawno myślałem, ze to divy i floaty rządzą a tu Maciek rozwalił moje wyobrazenie o tym juz na 4 sekcji kursu. hahhaha 4 z 12. Warto było się dołączyć do kursu.
+                </p>
+
+
+                <p class="diary__paragraph">
+                    14.02.2020 <br/><br/>
                     Z dzisiejszej lekcji dowiedziałem się o istnieniu róznych super narzędzi jak Git i Github i ze obia
                     te narzedzia są git
                 </p>
             </section>
 
 
-
             <section>
-                <h3>jaki cel ma moja nauka?</h3>
-                <p class="diary">
+                <h3 class="diary__header3">jaki cel ma moja nauka?</h3>
+                <p class="diary__paragraph">
                     Chcę nauczyć się programowania aby móc ulepszać świat.
                     Na początek chcę zrobić stronę internetową siostrze, która wynajmuje domek nad morzem w portugalii,
                     kolejny projekt to srona dla mojej mamy, zajmujacej się podobnymi rzeczami w polsce w rejonach
@@ -86,8 +100,8 @@
 
     </main>
 
-    <footer>
-        Strona domowa Jakuba Kwiatkowskiego, wszystkie treści są efektem mojej nauki na kursie WTF: Co ten Frontend.
+    <footer class="footer">
+        Strona <b>Jakuba Kwiatkowskiego</b>, wszystkie treści są efektem mojej nauki na kursie <a href="https://cotenfrontend.pl/" target="blank" class="footer__link">WTF: co ten frontend</a>.
     </footer>
 
     <script src="main.js"></script>

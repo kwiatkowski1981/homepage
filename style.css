@@ -1,38 +1,120 @@
-
-
 body{
-    background-color:#E8F4FD;
+    background-color: #E8F4FD;
+    margin: 0px;
 }
 
-
-h1{
-    color:#2B46A6;
-}
-
-h2{
-    color:#3B60E4;
-}
-
-h3{
-
-    color:#17AFE3;
-}
-
-p{
-    color:#262724;
-}
-
-a{
-    color: #C8ADC0;
-    text-decoration:none ;
-}
-
-a:hover{
-    color:#21357D;
+.navigation{
+    position: fixed;
+    width: 100%;
+    background-color: #E8F4FD;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 20px;
 
 }
 
-.diary {
-    background-color:#ffffff;
+.navigation__link{
+    color: #317B22;
+    text-decoration: none;
+}
+
+.navigation__link:hover{
+    color: #931621;
+
+}
+
+.main{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.main__header1{
+
+    margin-top: 15px;
+    color: #2B46A6;
+    background-color: #CCE8F7;
+    padding: 10px;
+    text-align: center;
+}
+
+.aboutme__header2{
+    color: #3B60E4;
+}
+
+
+.aboutme_paragraph{
+    color: #000000;
+}
+
+.aboutme__img{
+    width: 100%;
+    max-width: 150px;
+    display: block; 
+    float: left;
+    margin: 0px 20px 20px 0px;
+
+}
+
+.aboutme__link{
+    color: #317B22;
+    text-decoration: none;
+
+}
+
+.aboutme_link:hover{
+    color: #931621;
+
+}
+
+.diary__header2{
+    color: #3B60E4;
+}
+
+.diary__header3{
+    color: #17AFE3;
+}
+
+.diary__paragraph{
+    background-color: #F0F9FB;
     color: #54635A;
+    padding: 10px 10px 10px 20px;
+    clear: both;
+}
+
+.diary__link{
+    color: #317B22;
+    text-decoration: none;
+
+}
+
+.diary__link:hover{
+    color: #931621;
+
+}
+
+.float{
+    clear: both;
+}
+
+.footer{
+    margin: 15px auto;
+    color: #2B46A6;
+    background-color: #CCE8F7;
+    padding: 10px;
+    text-align: center;
+    max-width: 700px;
+}
+
+.footer__link{
+    color: #317B22;
+    text-decoration: none;
+
+}
+
+.footer__link:hover{
+    color: #931621;
+
 }
