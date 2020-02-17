@@ -1,9 +1,9 @@
-body{
+body {
     background-color: #E8F4FD;
     margin: 0px;
 }
 
-.navigation{
+.navigation {
     position: fixed;
     width: 100%;
     background-color: #E8F4FD;
@@ -11,20 +11,18 @@ body{
     left: 0px;
     box-sizing: border-box;
     padding: 20px;
-
 }
 
-.navigation__link{
+.navigation__link {
     color: #317B22;
     text-decoration: none;
 }
 
-.navigation__link:hover{
+.navigation__link:hover {
     color: #931621;
-
 }
 
-.navigation__link-goup{
+.navigation__link-goup {
     color: #317B22;
     text-decoration: none;
     position: fixed;
@@ -34,20 +32,18 @@ body{
     background-color: #E8F4FD;
 }
 
-.navigation__link-goup:hover{
+.navigation__link-goup:hover {
     color: #931621;
-   
 }
 
-.main{
+.main {
     width: 100%;
     max-width: 700px;
     margin: auto;
     padding-top: 50px;
 }
 
-.main__header1{
-
+.main__header1 {
     margin-top: 15px;
     color: #2B46A6;
     background-color: #CCE8F7;
@@ -55,75 +51,67 @@ body{
     text-align: center;
 }
 
-.aboutme__header2{
+.aboutme__header2 {
     color: #3B60E4;
 }
 
-
-.aboutme_paragraph{
+.aboutme_paragraph {
     color: #000000;
+    line-height: 24px;
 }
 
-.aboutme__img{
+.aboutme__img {
     width: 100%;
     max-width: 150px;
-    display: block; 
+    display: block;
     float: left;
     margin: 0px 20px 20px 0px;
-
 }
 
-.aboutme__link{
+.aboutme__link {
     color: #317B22;
     text-decoration: none;
-
 }
 
-.aboutme_link:hover{
+.aboutme_link:hover {
     color: #931621;
-
 }
 
-.diary{
+.diary {}
 
-}
-
-.diary__header2{
+.diary__header2 {
     color: #3B60E4;
-
 }
 
-.diary__header3{
+.diary__header3 {
     color: #17AFE3;
 }
 
-.diary__paragraph{
+.diary__paragraph {
     background-color: #F0F9FB;
     color: #54635A;
     padding: 10px 10px 10px 20px;
     clear: both;
 }
 
-.diary__paragraph diary__paragraph--color{
+.diary__paragraph diary__paragraph--color {
     color: #F0F9EA;
 }
 
-.diary__link{
+.diary__link {
     color: #317B22;
     text-decoration: none;
-
 }
 
-.diary__link:hover{
+.diary__link:hover {
     color: #931621;
-
 }
 
-.float{
+.float {
     clear: both;
 }
 
-.footer{
+.footer {
     margin: 15px auto;
     color: #2B46A6;
     background-color: #CCE8F7;
@@ -132,13 +120,125 @@ body{
     max-width: 700px;
 }
 
-.footer__link{
+.footer__link {
     color: #317B22;
     text-decoration: none;
-
 }
 
-.footer__link:hover{
+.footer__link:hover {
     color: #931621;
-
 }
+
+.table{
+        background-color: #F0F9EA;
+        border-style: solid;
+
+        border-radius: 5px;
+        border-color: #82C09A;
+        width: 600px;
+        margin: auto;
+        border-spacing: 0px;
+}
+
+.table__header{
+    border: 0px;
+}
+
+.table__heading{
+        font-size: 50px;
+}       
+
+.table__title{
+    background-color: #82C09A;
+    width: 600px;
+    height: 120px;
+    border: 0px;
+}
+
+.table__title--header{
+    background-color: YELLOW;
+    width: 598px;
+}
+
+
+.table__content{
+    background-color: #ffffdd;
+    padding: 5px;
+    border: 0px;
+    width: 600px;
+}
+
+.table__foot{
+    background-color: #82C09A;
+    width: 600px;
+    height: 80px;
+}
+
+.table__foot--middle{
+    text-align: center;
+    border: 0px;
+}
+
+.table__paragraph{
+        color: #000000;
+}
+
+.table__content--nav{
+    background-color: #C6E2D1;
+    padding: 5px;
+    border-right: 1px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: dotted;
+    border-color: #82C09A;
+    width: 100px;
+    height: 400px;
+    vertical-align: text-top;
+}
+
+.table__nav--list{
+    list-style: none;
+    padding-inline-start: 5px;
+}
+
+.table__nav--link{
+    text-decoration: none;
+    color: #A72121;
+}
+
+.table__nav--link:hover{
+    text-decortion: none;
+    color: #0000D3;
+}
+
+
+
+
+
+.table__content--main{
+    background-color: #C6E2D1;
+    padding: 5px;
+    width: 420px;
+    height: 400px;
+    vertical-align: text-top;
+}
+
+.table__content--add{
+    background-color: #C6E2D1;
+    padding: 5px;
+    border-left: 1px;
+    border-style: dotted;
+    border-color: #82C09A;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 50px;
+    height: 400px;
+    vertical-align: text-top;
+}
+
+.table__add--paragraph{
+    color: #D36135;       
+}
+
