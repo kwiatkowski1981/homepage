@@ -3,14 +3,27 @@ body {
     margin: 0px;
 }
 
-.navigation {
+.side__header {
     position: fixed;
     width: 100%;
     background-color: #E8F4FD;
     top: 0px;
     left: 0px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
+}
+
+.navigation{
+
+}
+
+.navigation__list{
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item{
+    display: inline;
 }
 
 .navigation__link {
@@ -28,7 +41,7 @@ body {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    padding: 20px;
+    padding: 30px;
     background-color: #E8F4FD;
 }
 
