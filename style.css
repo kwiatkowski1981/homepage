@@ -119,8 +119,8 @@ body {
     text-decoration: none;
 }
 
-.aboutme_link:hover {
-    color: #931621;
+.aboutme__link:hover {
+    color: #931620;
 }
 
 .diary {}
