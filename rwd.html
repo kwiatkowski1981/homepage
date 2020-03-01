@@ -12,37 +12,67 @@
 
 <body>
 
-    <main class="grid">
+    <main class="main__grid">
 
-        <header class="main__header">
-            <h1 class="main__heading">Moja strona domowa</h1>
-        </header>
-        <article class="main__article">
+        <section class="navigation">
+            <nav class="main__navigation">
+                <ul class="main__navigation__list">
+                    <li class="main__navigation__item"><a href="index.html" class="main__navigation__link"> Home </a>
+                    </li>
+                    <li class="main__navigation__item"><a href="photos.html" class="main__navigation__link"> Photos </a>
+                    </li>
+                    <li class="main__navigation__item"> <a href="rwd.html" class="main__navigation__link"> R.W.D. </a>
+                    </li>
+                    <li class="main__navigation__item"><a href="tabele.html" class="main__navigation__link"> Tabele </a>
+                    </li>
 
-            <p class="main__paragraph">Witam na mojej nowej stronie domowej stworzonej za pomocą technik responsywnych.
-            </p>
+                    <li><a href="#main" class="main__navigation__goup">go up</a></li>
+                </ul>
+            </nav>
 
-        </article>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">1</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">2</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">3</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">4</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">5</a></li>
-            </ul>
-        </nav>
+        </section>
+
+        <section class="main__sideheader">
+
+            <div class="main__hamburger"> <span class="hamburger">&#9776; </span></div>
+            <header class="main__header">
+                <h1 class="main__heading">Jakub Kwiatkowski</h1>
+            </header>
+        </section>
+
+
+        <section class="main__content">
+
+            <section class="aboutme">
+                <h2 class="aboutme__header2">Kim jestem?</h2>
+
+                <p class="aboutme__paragraph">
+
+                    Urodziłem się w <b>1981</b> w Szczecinku. Wychowałem się na dolnym śląsku w miejscowości
+                    <strong>Dzierzoniów</strong>.
+                    Obecnie mieszkam w szwajcarii.
+                    Mieszkam tu od 1998 roku.
+                    Czym się zajmuję?
+                    Pracuję, fotografuję, latam dronem, jezdzę na rowerze, uczę się programowania :)
+
+
+                    | <a href="#diary" class="aboutme__link">przejdź do pamiętniczka</a> |
+                </p>
+
+            </section>
+
+
+        </section>
 
         <footer class="footer">
-            <p class="footer">Wszystkie prawa zastrzeżone 28.02.2020</p>
+            Strona <b>Jakuba Kwiatkowskiego</b>, wszystkie treści są efektem mojej nauki na kursie <a
+                href="https://cotenfrontend.pl/" target="blank" class="footer__link">WTF: co ten frontend</a>.
         </footer>
 
-        <div class="grid__item"></div>
-
+        <div class="main__content__aboutme__img"> <img src="me2.jpeg" alt="kuba wystajacy zza macbooka"
+                class="aboutme__img"> </div>
+        <script src="main.js"></script>
     </main>
-
-
-
 </body>
 
 </html>
