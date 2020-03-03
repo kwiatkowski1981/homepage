@@ -9,7 +9,7 @@ diary.innerHTML = '<b>Pozdro</b> JS!!!'
 
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
-console.log(paragraphs[2])
+console.log(paragraphs[1])
 
 
 
@@ -45,14 +45,21 @@ const amIold = (age > 70) ? 'yes' : 'no';
 console.log(amIold);
 
 
+
+
+
 const navigationSwitcher = document.querySelector('.navigation__switcher--js')
 
 
 navigationSwitcher.addEventListener('click', (e) => {
-const navigationList = document.querySelector('.navigation__list--js');
-navigationList.classList.toggle('navigation__list--visible');
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible');
+    const navigationSwitcher = document.querySelector('.navigation__switcher--js')
+    if (navigationList.classList.contains('navigation__list--visible')) {
+        navigationSwitcher.innerHTML = 'X';
+    } else {
+        navigationSwitcher.innerHTML = '&#9776;';
+    }
+    
 });
 
-const navigationslistVisible = document.querySelector('.navigation__list--visible')
-console.log(navigationslistVisible.innerHTML);
-navigationslistVisible.innerHTML = 'X'
