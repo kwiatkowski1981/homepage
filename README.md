@@ -1,4 +1,4 @@
-![my-1st Homepage](https://github.com/kwiatkowski1981/homepage/1SThomepage.png)
+![my-1st Homepage](https://github.com/kwiatkowski1981/homepage/blob/master/1SThomepage.png)
 
 
 # My 1st Homepage
