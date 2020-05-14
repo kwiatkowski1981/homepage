@@ -112,7 +112,20 @@ body {
     display: block;
     float: left;
     margin: 0px 20px 20px 0px;
+    animation: waves 30s infinite alternate ease-in-out;
+    will-change: border-radius;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
 }
+@keyframes waves {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+    25% {
+      border-radius: 70% 30% 30% 70%/70% 70% 30% 30%; }
+    50% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%; }
+    100% {
+      border-radius: 70% 30% 30% 70%/70% 70% 30% 30%; } }
+  
 
 .aboutme__link {
     color: #317B22;
